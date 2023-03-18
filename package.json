@@ -1,0 +1,11 @@
+{
+  "name": "pf-guevara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

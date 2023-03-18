@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Mate alpaca",
+        "price": "9550",
+        "image": "../images/mate-alpaca.png",
+        "type": "mates",
+        "id": "1"
+    },
+    {
+        "name": "Mate calabaza",
+        "price": "2470",
+        "image": "../images/mate-calabaza.png",
+        "type": "mates",
+        "id": "2"
+    },
+    {
+        "name": "Mate madera",
+        "price": "1790",
+        "image": "../images/mate-madera.png",
+        "type": "mates",
+        "id": "3"
+    },
+    {
+        "name": "Mate plata",
+        "price": "8930",
+        "image": "../images/mate-plata.png",
+        "type": "mates",
+        "id": "4"
+    },
+    {
+        "name": "Mate silicona",
+        "price": "1330",
+        "image": "../images/mate-silicona.png",
+        "type": "mates",
+        "id": "5"
+    },
+    {
+        "name": "Mate vidrio",
+        "price": "520",
+        "image": "../images/mate-vidrio.png",
+        "type": "mates",
+        "id": "6"
+    },
+    {
+        "name": "Bombilla acero",
+        "price": "2000",
+        "image": "../images/bombilla-acero.png",
+        "type": "bombillas",
+        "id": "7"
+    },
+    {
+        "name": "Bombilla alpaca",
+        "price": "5000",
+        "image": "../images/bombilla-alpaca.png",
+        "type": "bombillas",
+        "id": "8"
+    },
+    {
+        "name": "Bombilla Bronze",
+        "price": "8400",
+        "image": "../images/bombilla-bronze.png",
+        "type": "bombillas",
+        "id": "9"
+    },
+    {
+        "name": "Bombilla metal",
+        "price": "2050",
+        "image": "../images/bombilla-metal.png",
+        "type": "bombillas",
+        "id": "10"
+    },
+    {
+        "name": "Bombilla oro",
+        "price": "14520",
+        "image": "../images/bombilla-oro.png",
+        "type": "bombillas",
+        "id": "11"
+    },
+    {
+        "name": "Bombilla plata",
+        "price": "9700",
+        "image": "../images/bombilla-plata.png",
+        "type": "bombillas",
+        "id": "12"
+    },
+    {
+        "name": "Yerba barbacua",
+        "price": "720",
+        "image": "../images/yerba-barbacua.png",
+        "type": "yerbas",
+        "id": "13"
+    },
+    {
+        "name": "Yerba organica",
+        "price": "400",
+        "image": "../images/yerba-organica.png",
+        "type": "yerbas",
+        "id": "14"
+    },
+    {
+        "name": "Yerba suave",
+        "price": "670",
+        "image": "../images/yerba-suave.png",
+        "type": "yerbas",
+        "id": "15"
+    },
+    {
+        "name": "Yerba terere",
+        "price": "230",
+        "image": "../images/yerba-terere.png",
+        "type": "yerbas",
+        "id": "16"
+    },
+    {
+        "name": "Yerba tradicional",
+        "price": "900",
+        "image": "../images/yerba-tradicional.png",
+        "type": "yerbas",
+        "id": "17"
+    },
+    {
+        "name": "Yerba uruguaya",
+        "price": "1200",
+        "image": "../images/yerba-uruguaya.png",
+        "type": "yerbas",
+        "id": "18"
+    }
+]

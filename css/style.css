@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #4e6b5a;
+  border-bottom: 2px solid #1f2722;
+}
+.header .nav__img {
+  width: 7rem;
+}
+.header .nav-link {
+  font-size: 1.3rem;
+  color: #162a1e;
+  font-family: "Montserrat", sans-serif;
+}
+.header .nav-link .cart-count {
+  top: -10px;
+  right: -10px;
+  background-color: #162a1e;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.footer {
+  background-color: #4e6b5a;
+}
+.footer .footer-desc {
+  font-family: "Montserrat", sans-serif;
+}
+.footer .footer__img {
+  width: 12rem;
+}
+.footer .footer__github {
+  color: black;
+  transition: all 0.5s;
+}
+.footer .footer__github:hover {
+  color: rgb(246, 111, 43);
+  transition: all 0.5s;
+}
+.footer .linea-separadora {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.contenedor {
+  height: 70vh;
+  background-image: url("../images/mate-portada.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay__p {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+}
+
+.overlay__h1 {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(32, 48, 30);
+}
+
+.products__section__article--p {
+  font-family: "Bellota Text", cursive;
+}
+
+.products__section__article--img {
+  max-width: 450px;
+  border-radius: 3rem;
+}
+
+.our-us__section__article--p {
+  font-family: "Bellota Text", cursive;
+}
+
+.our-us__section--title {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(20, 31, 18);
+}
+
+.our-us__section {
+  background-color: rgb(54, 84, 49);
+}
+
+.our-us__section__article--h4 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.first-wave {
+  margin-bottom: -0.1rem;
+}
+
+.second-wave {
+  margin-top: -0.1rem;
+}
+
+.products__ul--li--button {
+  background-color: rgb(76, 107, 64);
+  font-family: "Lora", serif;
+}
+
+.active {
+  background-color: rgb(114, 163, 95);
+}
+
+.card-text {
+  margin-bottom: 0.4rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.card-img-top {
+  height: 17rem;
+  object-fit: cover;
+}
+
+.product {
+  background-color: rgb(46, 80, 59);
+  border-radius: 3rem;
+  margin: 1rem;
+}
+.product div {
+  margin: 0.1rem;
+}
+.product div p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.1rem;
+  padding-right: 1rem;
+}
+.product div p:nth-child(1) {
+  color: rgb(31, 29, 29);
+}
+.product div p:nth-child(2) {
+  color: rgb(0, 0, 0);
+}
+.product .product__img {
+  width: 7rem;
+  border-radius: 2rem;
+}
+
+.totals {
+  background-color: rgb(35, 60, 45);
+  border-radius: 1rem;
+  margin: 1rem;
+  max-width: 90vw;
+  height: 35rem;
+}
+.totals div {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.totals div div {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: rgb(34, 73, 51);
+  width: 45%;
+  border-radius: 1rem;
+}
+.totals .total__iva--title:nth-child(1), .totals .total__iva--total:nth-child(2) {
+  background-color: rgb(46, 80, 59);
+}
+.totals .total__total--title:nth-child(1), .totals .total__total--total:nth-child(2) {
+  background-color: rgb(42, 84, 58);
+}
+
+.btn-success {
+  width: 100%;
+}
+
+.cart-confirmation,
+.data-confirmation {
+  background-color: rgb(28, 55, 43);
+  border-radius: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.data-confirmation {
+  position: sticky;
+  top: 10px;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 18rem;
+}
+
+.personal-data, .payment-data {
+  background-color: rgb(46, 80, 59);
+  margin: 1rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+.total {
+  background-color: rgb(51, 101, 70);
+  margin: 1rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .overlay__p {
+    width: 50%;
+  }
+  .totals {
+    margin: 0;
+    position: sticky;
+    top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

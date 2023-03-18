@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- HTML5 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo pagina -->
+    <title>Yerbas Olavarria - carrito</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap" rel="stylesheet">
+    <!-- CSS3 BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS3 -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img class="nav__img" src="../images/logo.png" alt="Logo Yerbas Olavarria">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-links justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../index.html#type-of-products">Tipos de productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../index.html#our-us">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../index.html#products">Productos</a>
+                            </li>
+                            <li class="nav-item cart position-relative">
+                                <a class="nav-link fw-bold d-none" href="pages/cart.html">
+                                    <div class="cart__a"><span
+                                            class="cart-count position-absolute text-center rounded-circle text-light ">1</span><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                            fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cart -->
+    <section class="d-none">
+        <div class="container">
+            <div class="contenedor__products row">
+                <div class="products col-12 col-xl-8">
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                        <button class="btn btn-danger">Eliminar mate plata</button>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                        <button class="btn btn-danger">Eliminar mate plata</button>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                        <button class="btn btn-danger">Eliminar mate plata</button>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                        <button class="btn btn-danger">Eliminar mate plata</button>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                        <button class="btn btn-danger">Eliminar mate plata</button>
+                    </div>
+                </div>
+                <div class="totals col-12 col-xl-4 mt-4">
+                    <div class="total__mate">
+                        <div class="total__mate--title">Mate</div>
+                        <div class="total__mate--total">123</div>
+                    </div>
+                    <div class="total__bombilla">
+                        <div class="total__bombilla--title">Bombilla</div>
+                        <div class="total__bombilla--total">123</div>
+                    </div>
+                    <div class="total__yerba">
+                        <div class="total__yerba--title">Yerba</div>
+                        <div class="total__yerba--total">123</div>
+                    </div>
+                    <div class="total__iva">
+                        <div class="total__iva--title">IVA</div>
+                        <div class="total__iva--total">123</div>
+                    </div>
+                    <div class="total__total">
+                        <div class="total__total--title">Total</div>
+                        <div class="total__total--total">123</div>
+                    </div>
+                </div>
+                <button class="btn btn-success mt-5">Confirmar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datos -->
+
+    <section class="d-none">
+        <div class="container">
+            <div class="contact my-5">
+                <div class="contact__ways">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Santiago">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Apellido</label>
+                            <input type="text" class="form-control" placeholder="Guevara">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Pais</label>
+                            <input type="text" class="form-control" placeholder="Argentina">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Provincia</label>
+                            <input type="text" class="form-control" placeholder="Buenos Aires">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" placeholder="Olavarria">
+                        </div>
+                        <div class="col-md-5">
+                            <label class="form-label">Calle</label>
+                            <input type="text" class="form-control" placeholder="Moreno">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Numero / Piso / Depto</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="1234">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Codigo postal</label>
+                            <input type="text" class="form-control" placeholder="7400">
+                        </div>
+                        <div class="col-md-8">
+                            <label class="form-label">E-mail</label>
+                            <input type="email" class="form-control" placeholder="hola123@mail.com">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Telefono</label>
+                            <input type="text" class="form-control" placeholder="123456789">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label">Nombre en tarjeta</label>
+                            <input type="text" class="form-control" placeholder="Santiago Guevara">
+                        </div>
+                        <div class="col-md-7">
+                            <label class="form-label">Numero de la tarjeta</label>
+                            <input type="text" class="form-control" placeholder="1234 1234 1234 1234">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Expiracion</label>
+                            <input type="text" class="form-control" placeholder="06/24">
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">CVV</label>
+                            <input type="text" class="form-control" placeholder="123">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Verificar
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-success mt-3">Confirmar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confirmacion -->
+
+    <section class="d-none">
+        <div class="container">
+            <div class="contenedor-confirmacion-final row">
+                <div class="cart-confirmation col-12 col-xl-7">
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                    <div class="product d-flex flex-wrap align-items-center justify-content-between p-3">
+                        <img class="product__img" src="../images/mate-plata.png" alt="">
+                        <div class="product__name">
+                            <p class="fs-5 text-center">Producto</p>
+                            <p class="fs-3 text-center">Mate plata</p>
+                        </div>
+                        <div class="product__amount">
+                            <p class="fs-5 text-center">Cantidad</p>
+                            <p class="fs-3 text-center">3</p>
+                        </div>
+                        <div class="product__total">
+                            <p class="fs-5 text-center">Total</p>
+                            <p class="fs-3 text-center">3456</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-confirmation col-12 offset-xl-1 col-xl-4">
+                    <div class="personal-data">
+                        <div class="name">Santiago Guevara</div>
+                        <div class="place">Argentina - Buenos Aires - Olavarria</div>
+                        <div class="direction">Moreno 1234</div>
+                        <div class="contact">guevaras090@gmail.com - 02284594207</div>
+                    </div>
+                    <div class="payment-data">
+                        <div class="payment-data-content">Santiago Guevara - 1234 1234 1234 1234</div>
+                        <div class="payment-data-content">05/23 - 123</div>
+                    </div>
+                    <div class="total">674694</div>
+                </div>
+                <button class="btn btn-success my-5">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="correos-pagos my-5 d-flex flex-column flex-lg-row">
+                <img src="../images/footer-tarjetas.png" alt="Metodos de pago Yerbas Olavarria">
+                <img src="../images/footer-correos.png" alt="Correos Yerbas Olavarria">
+            </div>
+            <div class="linea-separadora mb-5"></div>
+            <div class="d-flex flex-column align-items-center">
+                <p class="footer-desc fw-bold text-center">Santiago Guevara - Proyecto Final (JavaScript) - Coderhouse
+                </p>
+                <div class="d-flex align-items-center">
+                    <img class="footer__img" src="../images/coderhouse.png" alt="Coderhouse">
+                    <a href="#" class="m-4 footer__github"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <!-- Mi JS -->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

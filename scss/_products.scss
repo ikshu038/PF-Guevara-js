@@ -1,0 +1,23 @@
+.products__ul--li--button {
+    background-color: rgb(76, 107, 64);
+    font-family: 'Lora', serif;
+}
+
+.active {
+    background-color: rgb(114, 163, 95);
+}
+
+.card-text {
+    margin-bottom: .4rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card-img-top {
+    height: 17rem;
+    object-fit: cover;
+}

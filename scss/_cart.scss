@@ -1,0 +1,110 @@
+.product {
+    background-color: rgb(46, 80, 59);
+    border-radius: 3rem;
+    margin: 1rem;
+
+    div {
+        margin: .1rem;
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            margin: 0;
+            padding: .1rem;
+            padding-right: 1rem;
+
+            &:nth-child(1) {
+                color: rgb(31, 29, 29);
+            }
+
+            &:nth-child(2) {
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+
+    .product__img {
+        width: 7rem;
+        border-radius: 2rem;
+    }
+}
+
+.totals {
+    background-color: rgb(35, 60, 45);
+    border-radius: 1rem;
+    margin: 1rem;
+    max-width: 90vw;
+    height: 35rem;
+
+    div {
+        display: flex;
+        margin: 1rem;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            color: rgb(0, 0, 0);
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
+            padding: 1rem;
+            background-color: rgb(34, 73, 51);
+            width: 45%;
+            border-radius: 1rem;
+        }
+    }
+
+    .total__iva {
+
+        &--title:nth-child(1),
+        &--total:nth-child(2) {
+            background-color: rgb(46, 80, 59);
+        }
+
+    }
+
+    .total__total {
+
+        &--title:nth-child(1),
+        &--total:nth-child(2) {
+            background-color: rgb(42, 84, 58);
+        }
+    }
+}
+
+.btn-success {
+    width: 100%;
+}
+
+.cart-confirmation,
+.data-confirmation {
+    background-color: rgb(28, 55, 43);
+    border-radius: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.data-confirmation {
+    position: sticky;
+    top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 18rem;
+}
+
+.personal-data, .payment-data {
+    background-color: rgb(46, 80, 59);
+    margin: 1rem;
+    padding: .4rem;
+    border-radius: 1rem;
+}
+
+.total {
+    background-color: rgb(51, 101, 70);
+    margin: 1rem;
+    padding: .4rem;
+    border-radius: 1rem;
+}

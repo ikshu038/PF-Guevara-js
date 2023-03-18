@@ -1,0 +1,29 @@
+.contenedor {
+    height: 70vh;
+    background-image: url('../images/mate-portada.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay__p {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.overlay__h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(32, 48, 30);
+}
