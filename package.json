@@ -7,5 +7,9 @@
     "compile": "sass --watch scss/style.scss css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.3",
+    "toastify-js": "^1.12.0"
+  }
 }

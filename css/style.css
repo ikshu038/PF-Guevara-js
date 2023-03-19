@@ -1,3 +1,4 @@
+@import '../node_modules/toastify-js/src/toastify.css';
 * {
   padding: 0;
   margin: 0;
@@ -160,13 +161,11 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin: 0;
-  padding: 0.1rem;
-  padding-right: 1rem;
 }
-.product div p:nth-child(1) {
+.product div p .title {
   color: rgb(31, 29, 29);
 }
-.product div p:nth-child(2) {
+.product div p .text {
   color: rgb(0, 0, 0);
 }
 .product .product__img {
@@ -239,6 +238,10 @@ body {
   margin: 1rem;
   padding: 0.4rem;
   border-radius: 1rem;
+}
+
+.add, .quit {
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
